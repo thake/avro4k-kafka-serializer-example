@@ -14,6 +14,7 @@ repositories {
 }
 dependencies {
     implementation("com.github.thake.avro4k:avro4k-kafka-serializer:0.14.0")
+    implementation("com.github.avro-kotlin.avro4k:avro4k-core:1.7.0")
     implementation("org.testcontainers:testcontainers:1.17.3")
     implementation("org.testcontainers:kafka:1.17.3")
     implementation("org.apache.kafka:kafka-streams:3.2.1")
